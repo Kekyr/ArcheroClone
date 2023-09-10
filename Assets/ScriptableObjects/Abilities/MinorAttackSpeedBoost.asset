@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7098f63c30eeeaf40b10df3c62d9d48e, type: 3}
+  m_Name: MinorAttackSpeedBoost
+  m_EditorClassIdentifier: 
+  _title: "\u043C\u0430\u043B\u044B\u0439 \u0431\u043E\u043D\u0443\u0441 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u0438
+    \u0430\u0442\u0430\u043A\u0438"
+  _icon: {fileID: 21300000, guid: 1d0abfa08b4c4cd4f9651091c59aaed2, type: 3}
+  _description: "\u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C
+    \u0431\u044B\u0441\u0442\u0440\u0435\u0435"
+  _skill: {fileID: 6585516358563502337, guid: 5bcbb0754f2a7714ea26716dfc1a386f, type: 3}

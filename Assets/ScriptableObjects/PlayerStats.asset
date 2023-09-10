@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14249e8abf842e04eb4170d121f7b1ab, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  _maxHealth: 100
+  _currentHealth: 80
+  _levelNumber: 1
+  _currentXP: 5
+  _maxXP: 20
+  _damage: 10
+  _attackSpeed: 2
+  _diagonalCount: 0
+  _forwardCount: 1
+  _backwardCount: 0
+  _sideCount: 0
+  _multiShotCount: 0
+  _multiShotDelay: 0.2

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7098f63c30eeeaf40b10df3c62d9d48e, type: 3}
+  m_Name: AddSideShuriken
+  m_EditorClassIdentifier: 
+  _title: "\u0431\u043E\u043A\u043E\u0432\u044B\u0435 \u0441\u044E\u0440\u0438\u043A\u0435\u043D\u044B
+    +1"
+  _icon: {fileID: 21300000, guid: 75e6a9812eaab284c9f9be14035b7b68, type: 3}
+  _description: "\u0441\u044E\u0440\u0438\u043A\u0435\u043D\u044B \u043B\u0435\u0442\u044F\u0442
+    \u0432\u043F\u0440\u0430\u0432\u043E \u0438 \u0432\u043B\u0435\u0432\u043E"
+  _skill: {fileID: 8961321323527791277, guid: 694bb2832be509f449d662d1a9f43473, type: 3}
