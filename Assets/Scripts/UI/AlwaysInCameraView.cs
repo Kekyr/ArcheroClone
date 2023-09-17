@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LookAtCamera : MonoBehaviour
+public class AlwaysInCameraView : MonoBehaviour
 {
     private Camera _camera;
     private float _rotationX = 48;
@@ -18,7 +18,6 @@ public class LookAtCamera : MonoBehaviour
     {
         _direction = _camera.transform.position - transform.position;
         _direction.x = 0;
-        //_rotationToCamera = Quaternion.LookRotation(-_direction, Vector3.up);
         _rotationToCamera = Quaternion.Euler(_rotationX, _rotationY, _rotationZ);
         transform.rotation = _rotationToCamera;
     }

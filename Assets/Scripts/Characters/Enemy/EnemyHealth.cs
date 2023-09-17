@@ -1,6 +1,10 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(Enemy))]
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(EnemyStateMachine))]
+[RequireComponent(typeof(Rigidbody))]
 public class EnemyHealth : Health
 {
     public readonly int Damage = Animator.StringToHash("Damage");
@@ -18,7 +22,7 @@ public class EnemyHealth : Health
     private Enemy _enemy;
     private EnemyStateMachine _enemyStateMachine;
     private Rigidbody _rigidbody;
-    private FlashDamage _flashDamage;
+    private DamageVFX _flashDamage;
     private Audio _audio;
 
     private bool _isDead;
@@ -29,7 +33,7 @@ public class EnemyHealth : Health
         _animator = GetComponent<Animator>();
         _enemyStateMachine = GetComponent<EnemyStateMachine>();
         _rigidbody = GetComponent<Rigidbody>();
-        _flashDamage = GetComponentInChildren<FlashDamage>();
+        _flashDamage = GetComponentInChildren<DamageVFX>();
         _audio = GetComponentInChildren<Audio>();
     }
 

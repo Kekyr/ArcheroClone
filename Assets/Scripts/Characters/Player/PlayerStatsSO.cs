@@ -153,7 +153,7 @@ public class PlayerStatsSO : ScriptableObject
 
     public void Reset()
     {
-        _maxHealth = 100;
+        _maxHealth = 150;
         _currentHealth = _maxHealth;
         _levelNumber = 0;
         _currentXP = 0;

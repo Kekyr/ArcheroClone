@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Movement))]
 public class SphereMovementData : MonoBehaviour
 {
     [SerializeField] private float _speed;

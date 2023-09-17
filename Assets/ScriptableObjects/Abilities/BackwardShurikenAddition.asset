@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7098f63c30eeeaf40b10df3c62d9d48e, type: 3}
-  m_Name: AddForwardShuriken
+  m_Name: BackwardShurikenAddition
   m_EditorClassIdentifier: 
-  _title: "\u0441\u044E\u0440\u0438\u043A\u0435\u043D \u0432\u043F\u0435\u0440\u0435\u0434
+  _title: "\u0441\u044E\u0440\u0438\u043A\u0435\u043D \u043D\u0430\u0437\u0430\u0434
     +1"
-  _icon: {fileID: 21300000, guid: d47346ce05dcd104f90a263dafd93b78, type: 3}
+  _icon: {fileID: 21300000, guid: aeebeed34bb03314ab021e38d391dbfd, type: 3}
   _description: "+1 \u0441\u044E\u0440\u0438\u043A\u0435\u043D, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
-    \u0432\u044B\u043F\u0443\u0441\u043A\u0430\u0435\u0442\u0441\u044F \u0432\u043F\u0435\u0440\u0435\u0434"
-  _skill: {fileID: 5411914675232237705, guid: ef60089acb91ce847950cd69f4ffad60, type: 3}
+    \u0432\u044B\u043F\u0443\u0441\u043A\u0430\u0435\u0442\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
+  _skill: {fileID: 2175054634387016582, guid: 934176066410ed3458d4968f3bc19042, type: 3}

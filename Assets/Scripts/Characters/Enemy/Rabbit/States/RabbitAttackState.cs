@@ -5,12 +5,14 @@ public class RabbitAttackState : State
 {
     [SerializeField] private PoolSO _spherePool;
     [SerializeField] private SFXSO _sfx;
-    [SerializeField] private Sphere _projectilePrefab;
+
     [SerializeField] private Transform _forward;
     [SerializeField] private Transform _rightDiagonal;
     [SerializeField] private Transform _leftDiagonal;
+
     [SerializeField] private int _minNumberOfAttack;
     [SerializeField] private int _maxNumberOfAttack;
+
     [SerializeField] private float _timeBetweenAttack;
     [SerializeField] private float _rotationSpeed;
 
@@ -44,8 +46,10 @@ public class RabbitAttackState : State
         _completed = false;
     }
 
-    private void SpawnProjectile(Vector3 moveDirection, Vector3 spawnPosition)
+    private void SpawnProjectile(Vector3 spawnPosition, Vector3 directionOffset = default(Vector3))
     {
+        Vector3 moveDirection = transform.forward + directionOffset;
+
         Projectile projectile = _objectPool.SpawnFromPool(_spherePool.Tag, spawnPosition, _spherePool.Prefab.transform.rotation);
         projectile.GetComponent<SphereMovementData>().Init(moveDirection);
     }
@@ -65,9 +69,11 @@ public class RabbitAttackState : State
             }
 
             _audio.Play(_sfx);
-            SpawnProjectile(transform.forward, _forward.position);
-            SpawnProjectile(transform.forward + transform.right, _rightDiagonal.position);
-            SpawnProjectile(transform.forward - transform.right, _leftDiagonal.position);
+
+            SpawnProjectile(_forward.position, transform.forward);
+            SpawnProjectile(_rightDiagonal.position, transform.right);
+            SpawnProjectile(_leftDiagonal.position, -transform.right);
+
             yield return _waitForSeconds;
         }
 

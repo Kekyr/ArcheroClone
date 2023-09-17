@@ -392,7 +392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
   _playerStats: {fileID: 11400000, guid: da6dd37f066b2f147bb51b6886496519, type: 2}
-  _damage: 10
+  _damage: 7
   _xpCount: 5
   _mark: {fileID: 6350248280376472289}
 --- !u!114 &4103372807579240351
@@ -1998,7 +1998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6354201768633863625}
   - component: {fileID: 6468899570885854245}
-  - component: {fileID: 4103372806070763973}
+  - component: {fileID: 1424481873465802575}
   m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
@@ -2096,7 +2096,7 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.012388031, y: 0, z: 0.0015562545}
     m_Extent: {x: 0.0153516615, y: 0.035812914, z: 0.010000499}
   m_DirtyAABB: 0
---- !u!114 &4103372806070763973
+--- !u!114 &1424481873465802575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2105,10 +2105,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6350938229593640023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: babbd44d642872d469811e63a42fc907, type: 3}
+  m_Script: {fileID: 11500000, guid: 574ec8151b23cac448a6745e9af5c606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _flashColor: {r: 1, g: 0.18396229, b: 0.18396229, a: 0}
+  _flashColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!1 &6350938229615233649
 GameObject:
   m_ObjectHideFlags: 0

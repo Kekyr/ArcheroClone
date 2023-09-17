@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ResetStats : MonoBehaviour
+[RequireComponent(typeof(Button))]
+public class ResettingStats : MonoBehaviour
 {
     [SerializeField] private PlayerStatsSO _playerStatsSO;
 

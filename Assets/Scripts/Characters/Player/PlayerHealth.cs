@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(PlayerStateMachine))]
 public class PlayerHealth : MonoBehaviour
 {
     public readonly int Die = Animator.StringToHash("Die");
@@ -14,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private RebirthScreen _rebirthScreen;
 
     private Animator _animator;
-    private FlashDamage _flashDamage;
+    private DamageVFX _flashDamage;
     private PlayerStateMachine _stateMachine;
     private HealthView _healthView;
     private Audio _audio;
@@ -26,8 +28,8 @@ public class PlayerHealth : MonoBehaviour
     private void Awake()
     {
         _animator = GetComponent<Animator>();
-        _flashDamage = GetComponentInChildren<FlashDamage>();
         _stateMachine = GetComponent<PlayerStateMachine>();
+        _flashDamage = GetComponentInChildren<DamageVFX>();
         _healthView = GetComponentInChildren<HealthView>();
         _audio = GetComponentInChildren<Audio>();
     }
@@ -59,7 +61,7 @@ public class PlayerHealth : MonoBehaviour
             _audio.Play(_deathSfx);
             _healthView.gameObject.SetActive(false);
         }
-        else if(!_isDead)
+        else if (!_isDead)
         {
             _audio.Play(_damageSfx);
             _flashDamage.Show(_flashDuration);

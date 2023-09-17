@@ -1,16 +1,18 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Button))]
 public class NoButton : MonoBehaviour
 {
     [SerializeField] private PlayerStatsSO _playerStats;
 
     private Button _button;
+    private Music _music;
 
     private void Awake()
     {
         _button = GetComponent<Button>();
+        _music = FindObjectOfType<Music>();
     }
 
     private void OnEnable()
@@ -25,6 +27,7 @@ public class NoButton : MonoBehaviour
 
     private void OnButtonClick()
     {
+        Destroy(_music.gameObject);
         _playerStats.Restart();
     }
 }

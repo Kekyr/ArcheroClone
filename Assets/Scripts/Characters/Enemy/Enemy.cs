@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(EnemyHealth))]
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Player _player;
@@ -29,8 +30,8 @@ public class Enemy : MonoBehaviour
 
     public void ChangeMark()
     {
-        if(_mark!=null)
-        _mark.gameObject.SetActive(!_mark.gameObject.activeSelf);
+        if (_mark != null)
+            _mark.gameObject.SetActive(!_mark.gameObject.activeSelf);
     }
 
     private void OnTriggerEnter(Collider other)

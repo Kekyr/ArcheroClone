@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class SlimeIdleState : State
 {
     private Rigidbody _rigidbody; 

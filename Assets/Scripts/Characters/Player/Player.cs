@@ -1,17 +1,18 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(PlayerHealth))]
 public class Player : MonoBehaviour
 {
     [SerializeField] private SFXSO _sfx;
 
-    private Leveling _leveling;
+    private LevelingUp _leveling;
     private PlayerHealth _playerHealth;
     private Audio _audio;
 
     private void Awake()
     {
-        _leveling = GetComponent<Leveling>();
+        _leveling = GetComponent<LevelingUp>();
         _playerHealth = GetComponent<PlayerHealth>();
         _audio = GetComponentInChildren<Audio>();
     }

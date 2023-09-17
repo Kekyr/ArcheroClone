@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Button))]
 public class YesButton : MonoBehaviour
 {
     [SerializeField] private SFXSO _sfx;
@@ -13,9 +14,9 @@ public class YesButton : MonoBehaviour
 
     private void Awake()
     {
+        _button = GetComponent<Button>();
         _canvas = transform.parent.parent;
         _audio = _canvas.gameObject.GetComponentInChildren<Audio>();
-        _button = GetComponent<Button>();
     }
 
     private void OnEnable()

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Movement))]
 public class BatMoveState : State
 {
     [SerializeField] private float _speed;

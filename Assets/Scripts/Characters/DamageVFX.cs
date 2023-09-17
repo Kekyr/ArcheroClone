@@ -1,7 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
-public class FlashDamage : MonoBehaviour
+[RequireComponent(typeof(SkinnedMeshRenderer))]
+public class DamageVFX : MonoBehaviour
 {
     private readonly string _colorProperty = "_BaseColor";
 

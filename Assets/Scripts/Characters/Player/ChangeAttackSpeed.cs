@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class ChangeAttackSpeed : MonoBehaviour
 {
     public readonly int AttackSpeed = Animator.StringToHash("AttackSpeed");

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Movement))]
 public class ShurikenMovementData : MonoBehaviour
 {
     [SerializeField] private float _speed;

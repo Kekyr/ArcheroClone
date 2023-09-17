@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerIdleState : PlayerState
 {
     public readonly int IsIdle = Animator.StringToHash("IsIdle");

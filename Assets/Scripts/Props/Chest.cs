@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class Chest : MonoBehaviour
 {
     [SerializeField] private SFXSO _sfx;

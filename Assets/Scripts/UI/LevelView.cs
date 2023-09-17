@@ -9,7 +9,7 @@ public class LevelView : MonoBehaviour
 {
     public event UnityAction BarFilled;
 
-    [SerializeField] private Leveling _leveling;
+    [SerializeField] private LevelingUp _leveling;
     [SerializeField] private PlayerStatsSO _playerStatsSO;
     [SerializeField] private float _speed;
     [SerializeField] private TextMeshProUGUI _text;

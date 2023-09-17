@@ -330,7 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6512271807193273860}
   - component: {fileID: 6595716821836044418}
-  - component: {fileID: 6595716821836044419}
+  - component: {fileID: 1437398002744447061}
   m_Layer: 0
   m_Name: LV1
   m_TagString: Untagged
@@ -410,7 +410,7 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0026338515, y: 0.000048526563, z: 0.0000000037252903}
     m_Extent: {x: 0.008055966, y: 0.00904651, z: 0.008459969}
   m_DirtyAABB: 0
---- !u!114 &6595716821836044419
+--- !u!114 &1437398002744447061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6516010230503573408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: babbd44d642872d469811e63a42fc907, type: 3}
+  m_Script: {fileID: 11500000, guid: 574ec8151b23cac448a6745e9af5c606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _flashColor: {r: 1, g: 0, b: 0, a: 0}
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
   _playerStats: {fileID: 11400000, guid: da6dd37f066b2f147bb51b6886496519, type: 2}
-  _damage: 10
+  _damage: 7
   _xpCount: 5
   _mark: {fileID: 0}
 --- !u!114 &6575127139468681125

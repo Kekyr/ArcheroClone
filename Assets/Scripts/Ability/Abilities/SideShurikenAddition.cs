@@ -1,4 +1,4 @@
-public class AddSideShuriken : Ability
+public class SideShurikenAddition : Ability
 {
     public override void TurnOn()
     {

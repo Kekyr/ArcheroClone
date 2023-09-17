@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Movement))]
 [RequireComponent(typeof(Animator))]
 public class BatAttackState : State
 {

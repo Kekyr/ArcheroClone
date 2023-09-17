@@ -1,4 +1,4 @@
-public class AddBackwardShuriken : Ability
+public class BackwardShurikenAddition : Ability
 {
     public override void TurnOn()
     {

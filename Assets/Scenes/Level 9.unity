@@ -5856,8 +5856,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1729314277954227515}
-  - component: {fileID: 1587708690509720977}
   - component: {fileID: 1729314277954227516}
+  - component: {fileID: 1587708690509720977}
+  - component: {fileID: 1729314277954227517}
   m_Layer: 6
   m_Name: Mesh
   m_TagString: Untagged
@@ -6371,6 +6372,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: babbd44d642872d469811e63a42fc907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _flashColor: {r: 1, g: 0, b: 0, a: 0}
+--- !u!114 &1729314277954227517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723540677963777125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574ec8151b23cac448a6745e9af5c606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _flashColor: {r: 1, g: 0, b: 0, a: 0}

@@ -1,4 +1,4 @@
-public class RestoreHealth : Ability
+public class HealthRestoration : Ability
 {
     public override void TurnOn()
     {

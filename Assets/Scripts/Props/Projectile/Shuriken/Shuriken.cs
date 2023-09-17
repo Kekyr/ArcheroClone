@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(ShurikenMovementData))]
 public class Shuriken : Projectile
 {
     private ShurikenMovementData _shurikenMovementData;

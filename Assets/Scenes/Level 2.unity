@@ -5992,6 +5992,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1559959427063449759, guid: 82cc408c696d43f4ca821205fbe63283, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1559959427063449759, guid: 82cc408c696d43f4ca821205fbe63283, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82cc408c696d43f4ca821205fbe63283, type: 3}
 --- !u!137 &1587708690509720977
@@ -7371,7 +7379,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1723540677963777125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: babbd44d642872d469811e63a42fc907, type: 3}
+  m_Script: {fileID: 11500000, guid: 574ec8151b23cac448a6745e9af5c606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _flashColor: {r: 1, g: 0, b: 0, a: 0}

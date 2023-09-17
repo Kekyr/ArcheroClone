@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7098f63c30eeeaf40b10df3c62d9d48e, type: 3}
-  m_Name: RestoreHealth
+  m_Name: HealthRestoration
   m_EditorClassIdentifier: 
   _title: "\u0438\u0441\u0446\u0435\u043B\u0435\u043D\u0438\u0435"
   _icon: {fileID: 21300000, guid: 2270e19ee7f01804889eb27f0e415591, type: 3}

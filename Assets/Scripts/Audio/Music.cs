@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Music : MonoBehaviour
 {
     [SerializeField] private List<AudioClip> _music;
@@ -15,12 +16,11 @@ public class Music : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         _musicSource = GetComponent<AudioSource>();
         _defaultVolume = _musicSource.volume;
-
     }
 
     private void Update()
     {
-        if(_musicSource.time==0)
+        if (_musicSource.time == 0)
         {
             PlayMusic();
         }
@@ -39,6 +39,4 @@ public class Music : MonoBehaviour
         _musicSource.clip = _music[randomIndex];
         _musicSource.Play();
     }
-
-    
 }

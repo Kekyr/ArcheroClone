@@ -774,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
   _playerStats: {fileID: 11400000, guid: da6dd37f066b2f147bb51b6886496519, type: 2}
-  _damage: 10
+  _damage: 7
   _xpCount: 5
   _mark: {fileID: 7158639333797030097}
 --- !u!114 &3207278986507874676
@@ -868,7 +868,6 @@ MonoBehaviour:
   - {fileID: 3207278986507874686}
   _spherePool: {fileID: 11400000, guid: 9ea2556a2476a194b88c2940a2b32f57, type: 2}
   _sfx: {fileID: 11400000, guid: 7c64eebf4cf272547a47e002241a2702, type: 2}
-  _projectilePrefab: {fileID: 9088326030649715328, guid: add5ef0b06e0d34469027e1874e14e1d, type: 3}
   _forward: {fileID: 4500408641024477963}
   _rightDiagonal: {fileID: 4115086906207323838}
   _leftDiagonal: {fileID: 4500408641525370610}
@@ -1343,7 +1342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3207278985870264275}
   - component: {fileID: 3272434719502272259}
-  - component: {fileID: 3207278985870264274}
+  - component: {fileID: 1333245385919745591}
   m_Layer: 0
   m_Name: MESH
   m_TagString: Untagged
@@ -1431,7 +1430,7 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.007755317, y: 0.0022234973, z: -0.0000000027939677}
     m_Extent: {x: 0.013625186, y: 0.010196456, z: 0.013846097}
   m_DirtyAABB: 0
---- !u!114 &3207278985870264274
+--- !u!114 &1333245385919745591
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1440,7 +1439,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3210841421698650211}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: babbd44d642872d469811e63a42fc907, type: 3}
+  m_Script: {fileID: 11500000, guid: 574ec8151b23cac448a6745e9af5c606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _flashColor: {r: 1, g: 0, b: 0, a: 0}

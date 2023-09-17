@@ -1,4 +1,4 @@
-public class AddDiagonalShuriken : Ability
+public class DiagonalShurikenAddition : Ability
 {
     public override void TurnOn()
     {

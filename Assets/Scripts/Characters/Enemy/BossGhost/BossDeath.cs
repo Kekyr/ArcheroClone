@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BossDied : MonoBehaviour
+public class BossDeath : MonoBehaviour
 {
     [SerializeField] private LevelView _levelView;
     [SerializeField] private EnemyHealthView _enemyHealthView;

@@ -6152,7 +6152,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1723540677963777125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: babbd44d642872d469811e63a42fc907, type: 3}
+  m_Script: {fileID: 11500000, guid: 574ec8151b23cac448a6745e9af5c606, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _flashColor: {r: 1, g: 0, b: 0, a: 0}
@@ -6588,7 +6588,6 @@ MonoBehaviour:
   _shurikenPool: {fileID: 11400000, guid: 83351ed31e71e9841ab9a9d8b7fb2c79, type: 2}
   _sfx: {fileID: 11400000, guid: 518b455bbdc0175428e9070702c2e94a, type: 2}
   _rotationSpeed: 400
-  _shurikenPrefab: {fileID: -8768064155602396446, guid: 7a80d1ffcab05c44f9ea2b140f40144f, type: 3}
   _betweenShurikenOffsetX: 0.2
   _forward: {fileID: 108888931}
   _backward: {fileID: 420224636}

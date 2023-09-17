@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Movement))]
 public class SlimeAttackState : State
 {
     public readonly int Attack = Animator.StringToHash("Attack");

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Leveling : MonoBehaviour
+public class LevelingUp : MonoBehaviour
 {
     public event UnityAction<float, float> XPChanged;
 

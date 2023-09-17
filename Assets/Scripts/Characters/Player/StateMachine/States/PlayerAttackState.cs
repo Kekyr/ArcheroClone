@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerAttackState : PlayerState
 {
     public readonly int IsAttacking = Animator.StringToHash("IsAttacking");
